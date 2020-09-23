@@ -20,6 +20,10 @@ git clone https://github.com/syofyanzuhad/Laravel-7-Starter.git && cd Laravel-7-
 ```
 composer install
 ```
+- Run Artisan
+```
+php artisan ui vue --auth
+```
 - Install NPM
 ```
 npm install && npm run dev
