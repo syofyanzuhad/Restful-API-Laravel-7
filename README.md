@@ -28,6 +28,10 @@ php artisan ui vue --auth
 ```
 npm install && npm run dev
 ```
+- Run Migration
+```
+php artisan migrate
+```
 
 ## About Laravel 7 Starter
 
