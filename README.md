@@ -14,7 +14,7 @@
 
 - Clone this repo :
 ```
-git clone https://github.com/syofyanzuhad/Laravel-7-Starter.git && cd Laravel-7-Starter
+git clone https://github.com/syofyanzuhad/Restful-API-Laravel-7 && cd Restful-API-Laravel-7
 ```
 - Install Composer
 ```
@@ -33,7 +33,7 @@ npm install && npm run dev
 php artisan migrate
 ```
 
-## About Laravel 7 Starter
+## About Laravel 7 Restful API
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
