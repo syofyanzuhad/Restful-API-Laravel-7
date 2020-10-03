@@ -22,6 +22,7 @@ Route::post('/register', 'Api\AuthController@register');
 
 Route::post('/login', 'Api\AuthController@login');
 Route::post('/logout', 'Api\AuthController@logout');
+
 Route::group(['middleware' => ['jwt.verify']], function() {
-    Route::resource('/todo', 'TodoController');
+    Route::resource('/todo', 'Api\TodoController')->parameters(['todo' => 'id']);
 });
