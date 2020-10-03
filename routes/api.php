@@ -22,3 +22,5 @@ Route::post('/register', 'Api\AuthController@register');
 
 Route::post('/login', 'Api\AuthController@login');
 Route::post('/logout', 'Api\AuthController@logout');
+
+Route::resource('/todo', 'TodoController');
